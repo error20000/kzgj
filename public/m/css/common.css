@@ -1,0 +1,33 @@
+
+.spr { background: url(http://i0.cy.com/kzgj_m/main/2019/0508/spr.png) no-repeat; }
+body { background: #fff; margin: 0 auto; max-width: 750px; }
+.dia-spr { background: url(//i0.cy.com/ldjsy/mobile/2019/0104/dia-spr.png) no-repeat; }
+.f-l { float: left; }
+.f-r { float: right; }
+html{-webkit-text-size-adjust:none;} 
+
+/*  top */
+.bg-top{width: 100%; height: 218px;}
+.bg-top .top{width: 100%; height: 125px; background-color: #101010;}
+.bg-top .top_icon{width: 361px; height: 124px; background: url(../images/logo.png) center no-repeat;display: inline-block; margin: 15px 0 0 20px;}
+.bg-top .yy_btn{width: 280px; height: 105px; background: url(../images/btn_yy.png) center no-repeat;display: inline-block; float: right;}
+.bg-top .btn-backtop{height:30px; line-height:30px; font-size:26px; font-weight:bold;margin: 47px 0 0 20px;display: block; color:#000000;}
+.btn-backtop .btn-back-icon{width: 47px; height: 25px; background: url(../images/back_icon.png) center no-repeat;display: inline-block;}
+
+.top-line{height: 2px;background-color:#b5b5b5; margin: 10px 20px; }
+
+/*  footer */
+.footer{ height: 528px; background-color: #424242;}
+.footer .about-us{background: url(../images/bg_footer.jpg) bottom no-repeat; background-size: cover;height: fit-content;}
+.about-us .wx{width: 320px; height: 262px; display: inline-block;border-right: 1px solid #4d4d4d;}
+.about-us .wx .wx-box{margin: 20px 0 0 50px;}
+.about-us .wx-txt{width: 428px; height: 262px;display: inline-block; position: relative; float: right;}
+.about-us .wx-txt .icon-box{margin: 26px 0 0 55px;display: inline-block;}
+.about-us .wx-txt .txt1{font-size: 24px; color: #debc81; position: absolute; top: 50px;left: 208px;}
+.about-us .wx-txt .txt2{font-size: 24px; color: #fefeff; margin: 0 0 0 55px;}
+.about-us .qq{ height: 74px; background-color: #0c0c0c; margin: 0 22px 10px 20px;}
+.about-us .qq .qq-box{ display: inline-block;position: absolute;margin-top: -33px;}
+.about-us .qq .txt{ display: inline-block; margin-left: 266px; position: absolute;font-size: 24px; color: #ffffff;line-height: 74px;vertical-align: bottom;}
+.about-us .wb{ height: 74px; background-color: #0c0c0c; margin: 0 22px 10px 20px;}
+.about-us .wb .wb-box{ display: inline-block;position: absolute;margin-top: -33px;}
+.about-us .wb .txt{ display: inline-block; margin-left: 266px; position: absolute;font-size: 24px; color: #ffffff;line-height: 74px;vertical-align: bottom;}

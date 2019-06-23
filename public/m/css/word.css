@@ -1,0 +1,158 @@
+.p-world .page_bg{
+    width: 750px;
+    height: 526px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg1.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg1{
+    width: 750px;
+    height: 692px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg2.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg2{
+    width: 750px;
+    height: 644px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg3.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg3{
+    width: 750px;
+    height: 674px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg4.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg4{
+    width: 750px;
+    height: 656px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg5.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg5{
+    width: 750px;
+    height: 724px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg6.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg6{
+    width: 750px;
+    height: 662px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg7.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg7{
+    width: 750px;
+    height: 696px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg8.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg8{
+    width: 750px;
+    height: 846px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/yxxt_bg9.jpg) no-repeat;
+    overflow: hidden;
+}
+.world_bg .return_index {
+    margin: 400px auto 0;
+}
+.world_upTitle{font-size: 0; margin-top: 10px;}
+.world_upTitle p{
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(237, 239, 241, 1)), to(rgba(233, 197, 190, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    text-indent: 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+}
+.world_upTitle p:after{
+    content:"";
+    width: 106%;
+    height: 6px;
+    display: block;
+    position: absolute;
+    bottom: -22px;
+    background: #c9ab76;
+}
+.bor_picBg{
+    width: 750px;
+    height: 33px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/bor_picBg.png) no-repeat center;
+}
+.body_imgPic{text-align: center; padding: 0 43px;}
+
+.body_imgPic p{
+    font-size: 20px;
+    text-indent: 2em;
+    text-align: left;
+    color: #ececec;
+    line-height: 1.5;
+}
+
+/* 游戏系统 */
+.p-system .page_bg{
+    width: 750px;
+    height: 544px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg1.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg .return_index a{
+    margin: 400px auto 0;
+}
+.game_bg1{
+    width: 750px;
+    height: 588px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg2.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg2{
+    width: 750px;
+    height: 586px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg3.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg3{
+    width: 750px;
+    height: 584px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg4.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg4{
+    width: 750px;
+    height: 586px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg5.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg5{
+    width: 750px;
+    height: 584px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg6.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg6{
+    width: 750px;
+    height: 584px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg7.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg7{
+    width: 750px;
+    height: 584px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg8.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg8{
+    width: 750px;
+    height: 742px;
+    background: url(http://i0.cy.com/kzgj_m/main/2019/0508/gaem_bg9.jpg) no-repeat;
+    overflow: hidden;
+}
+.game_bg1,.game_bg2,.game_bg3,.game_bg4,.game_bg5,.game_bg6,.game_bg7,.game_bg8{
+    margin-top: -2px;
+}
+.world_bg1,.world_bg2,.world_bg3,.world_bg4,.world_bg5,.world_bg6,.world_bg7,.world_bg8{
+    margin-top: -2px;
+}
