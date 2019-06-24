@@ -12,7 +12,7 @@ body{ font-family:'微软雅黑','宋体',sumsun,Helvetica,sans-serif; backgroun
 
 
 /*------ page2 -----*/
-.page2 {background: url(../images/news_index_bg1.png) top center no-repeat;}
+.page2 {background: url(http://i0.cy.com/kzgj/main/2019/0624/news_index_bg1.png) top center no-repeat;}
 
 .mod-banner{position: relative;width: 411px;float:left;}
 .mod-banner .hd{width: 100%;height: auto; margin-top: 37px;}
@@ -24,8 +24,8 @@ body{ font-family:'微软雅黑','宋体',sumsun,Helvetica,sans-serif; backgroun
 .pic-nav ul{display: inline-block;}
 .pic-nav li{float: left; margin: 0 16px;}
 .pic-nav .swiper-pagination-bullet{ margin: 0 16px !important;}
-.pic-nav a, .pic-nav .swiper-pagination-bullet{display: inline-block;width: 29px;height: 29px;background: url(../images/pic_nav_icon.png) center no-repeat;background-size: contain;cursor: pointer;}
-.pic-nav a.on, .pic-nav .swiper-pagination-bullet-active{background: url(../images/pic_nav_icon_on.png) center no-repeat;}
+.pic-nav a, .pic-nav .swiper-pagination-bullet{display: inline-block;width: 29px;height: 29px;background: url(http://i0.cy.com/kzgj/main/2019/0624/pic_nav_icon.png) center no-repeat;background-size: contain;cursor: pointer;}
+.pic-nav a.on, .pic-nav .swiper-pagination-bullet-active{background: url(http://i0.cy.com/kzgj/main/2019/0624/pic_nav_icon_on.png) center no-repeat;}
 
 .mod-news{width: 760px;float:right;position: relative;}
 .mod-news .hd {margin-top: 149px;height: 81px;}
@@ -36,8 +36,8 @@ body{ font-family:'微软雅黑','宋体',sumsun,Helvetica,sans-serif; backgroun
 .mod-news .news-container .first{height:54px;background-color:#eec87c;display: block;line-height: 54px;color:#0c0c0c;font-weight:bold;font-size:23px;;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;text-align:center;
     transition: all 0.3s linear;-webkit-transition: all 0.3s linear;
 }
-.mod-news .news-container .first_left{position: absolute; top:20px;left:30px; width: 15px;height: 15px;background: url(../images/news_first_icon.png) center no-repeat;background-size: contain;}
-.mod-news .news-container .first_right{position: absolute; top:20px;right:30px; width: 15px;height: 15px;background: url(../images/news_first_icon.png) center no-repeat;background-size: contain;}
+.mod-news .news-container .first_left{position: absolute; top:20px;left:30px; width: 15px;height: 15px;background: url(http://i0.cy.com/kzgj/main/2019/0624/news_first_icon.png) center no-repeat;background-size: contain;}
+.mod-news .news-container .first_right{position: absolute; top:20px;right:30px; width: 15px;height: 15px;background: url(http://i0.cy.com/kzgj/main/2019/0624/news_first_icon.png) center no-repeat;background-size: contain;}
 .mod-news .news-container .first:hover{text-indent: 35px;}
 .mod-news .swiper-slide a{ font-size:16px;transition: all 0.3s linear;-webkit-transition: all 0.3s linear;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
 .mod-news .swiper-slide li{height:50px;width: 100%;float:left;position: relative; border-bottom: 1px dashed #6c6c6c;}
