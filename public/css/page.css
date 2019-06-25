@@ -53,9 +53,14 @@ body { font-family: '微软雅黑', '宋体', sumsun, Helvetica, sans-serif; }
 .p-system .list-world .about-txt p { padding-top: 50px; }
 
 /*-------- newslist.shtml(游戏新闻) ---------*/
-.p-news .sloga { background-image: url(http://i0.cy.com/kzgj/main/2019/0508/tit-page-news.png); width: 1262px; margin-left: -631px; }
 .p-news .bg-page-bot .bg-news { width: 100%;}
 .p-news .bg-page-bot .bg-news img { width: 100%;}
+.bg-news .logo {position: absolute; top: 0; left: -105px;width: 437px; height: 103px; background: url(http://i0.cy.com/kzgj/main/2019/0624/logo.png) center no-repeat;background-size: 73%;}
+.logo .logo-btn{position: absolute; }
+.logo .logo-1{top: 19px; left: 46px;   width: 77px; height: 75px;}
+.logo .logo-2{top: 19px; left: 126px;   width: 154px; height: 75px;}
+.logo .logo-3{top: 19px; left: 283px;   width: 90px; height: 75px;}
+
 .p-news .bg-cont .mod-news-list { width: 1000px; padding-top: 10px; }
 .p-news .bg-cont .news-list-title { height: 64px; margin-bottom: 24px; background: url(http://i0.cy.com/kzgj/main/2019/0624/news_list_title.png) center no-repeat; }
 .tab-news, .tab-news a { display: block; }

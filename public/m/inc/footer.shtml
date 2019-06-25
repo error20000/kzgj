@@ -1,0 +1,12 @@
+<footer class="footer" id="footer">
+    <dl>
+        <dt><img src="http://i0.cy.com/kzgj_m/main/2019/0508/er_wei.jpg" alt="二维码" width="212" height="212"></dt>
+        <dd>
+            <h3 class="clearfix"><span class="spr tx_iocn f-l"></span><span class="f-r fr_gzh">微信公众账号<br>kzgjol</span></h3>
+            <p>微信打开长按识别二维码，<br>关注微信有惊喜！</p>
+        </dd>
+    </dl>
+    <ul>
+        <li class="qq_q"><span></span><a href="javascript:void(0);" target="_blank" title="">官方QQ群：86327405</a></li>
+    </ul>
+</footer>

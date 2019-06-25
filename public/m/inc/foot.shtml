@@ -1,0 +1,43 @@
+<div class="bg5">
+			 <!--<div class="swiper-container8">
+			    <div class="swiper-wrapper">
+			      <div class="swiper-slide red-slide">
+			        <img src="//i0.cy.com/ldjsy/mobile/2019/0104/bg5-pic.png"/>
+			      </div>
+			      <div class="swiper-slide blue-slide">
+			        <img src="//i0.cy.com/ldjsy/mobile/2019/0104/bg5-pic.png"/>
+			      </div>
+			      <div class="swiper-slide orange-slide">
+			        <img src="//i0.cy.com/ldjsy/mobile/2019/0104/bg5-pic.png"/>
+			      </div>
+			      <div class="swiper-slide orange-slide">
+			        <img src="//i0.cy.com/ldjsy/mobile/2019/0104/bg5-pic.png"/>
+			      </div>
+			      <div class="swiper-slide orange-slide">
+			        <img src="//i0.cy.com/ldjsy/mobile/2019/0104/bg5-pic.png"/>
+			      </div>
+			    </div>
+			 </div>-->
+			 <div class="share_box">
+			 	<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwMzQ3MzQwNA==&scene=124&uin=&key=&devicetype=Windows+10&version=62060619&lang=zh_CN&a8scene=7&winzoom=1" class="wx foot_a">
+					<div class="pic_box">
+						<img src="//i0.cy.com/ldjsy/mobile/2019/0104/wx_pic.png"/>
+					</div>
+				</a>
+				<a href="https://weibo.com/ludingjisy" target="_blank" class="wb foot_a">
+					<div class="pic_box">
+						<img src="//i0.cy.com/ldjsy/mobile/2019/0104/wb_pic.png"/>
+					</div>
+				</a>
+				<a href="//shang.qq.com/wpa/qunwpa?idkey=58a59af9995056dde458e1813498dc04308f8f150e2fefcb6cd0cfa552fba8a0" target="_blank"  title="鹿鼎记手游安卓官方群" class="qq foot_a">
+					<div class="pic_box">
+						<img src="//i0.cy.com/ldjsy/mobile/2019/0104/qq_pic.png"/>
+					</div>
+				</a>
+				<a href="//shang.qq.com/wpa/qunwpa?idkey=58a59af9995056dde458e1813498dc04308f8f150e2fefcb6cd0cfa552fba8a0" title="鹿鼎记手游IOS官方群" target="_blank" class="tb foot_a"  >
+					<div class="pic_box">
+						<img src="//i0.cy.com/ldjsy/mobile/2019/0104/qq2.png"/>
+					</div>
+				</a>
+			 </div>
+		</div>
