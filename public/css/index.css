@@ -1,17 +1,38 @@
 @charset "utf-8";
 /*public*/
-html,body,.wrap,.mod-bg-box,.mod-wrap,.page-wrap{width: 100%;height: 100%;/* overflow:hidden; */}
+html,body,.mod-bg-box,.mod-wrap,.page-wrap{width: 100%;height: 100%;/* overflow:hidden; */}
 body{ font-family:'微软雅黑','宋体',sumsun,Helvetica,sans-serif; background: #464242;}
 #cyou_bottom{position: absolute;left:0;bottom:0;width:100%;z-index: 99;display: none;}
 .wrap,.mod-wrap,.page-wrap{position:relative;z-index:1;}
 .mod-bg-box{position: absolute;z-index: 2;}
 .page-wrap{z-index: 3;font-size:14px; line-height:1.5; color:#f1ecd6;}
-.page{position: relative;z-index: 1;height:1200px;}
+.page{position: relative;z-index: 1;height:900px;}
 .page.current{z-index: 2;}
 .page-cont{width:1200px;height:800px;position:absolute;left: 50%;top: 0;transform: translate(-50%, 0);}
 
+/*-------public------*/
+.part{width: 100%;height: 100%;position: relative;}
+.trans_mid{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+
+/*-------part-1------*/
+.part-1 {height:1750px;background: url(/images/part_1_bg.jpg) top center no-repeat;background-size: auto;}
+.part-1 .mid{width:1200px; margin: 0 auto; position: relative;}
+.part-1 .logo{margin-left: -70px;padding-top: 45px; position: relative;width: 437px; height: 103px; background: url(http://i0.cy.com/kzgj/main/2019/0624/logo.png) center no-repeat;}
+.logo .logo-btn{position: absolute; top: 39px; height: 91px;}
+.logo .logo-1{left: 0px;   width: 86px;}
+.logo .logo-2{left: 97px;   width: 205px;}
+.logo .logo-3{left: 312px;   width: 118px;}
+.part-1 .slogan{margin-top: 85px; width: 583px;height: 301px;background: url(/images/title_1.png) center no-repeat;}
+.part-1 .btn-box{}
+.part-1 .bg-video{width: 197px;height: 108px;background: url(/images/bg_video.png) center no-repeat;display: inline-block;position: relative;}
+.part-1 .bg-video .btn-play{width: 55px;height: 55px;background: url(/images/btn_play.png) center no-repeat;display: inline-block;}
+.part-1 .btn-yy{width: 363px;height: 119px;background: url(/images/btn_yy.png) center no-repeat;display: inline-block;position: relative;}
+.part-1 .btn-yy .btn-yy-yu{margin:-21px 0 0 12px; width: 86px;height: 108px;background: url(/images/btn_yy_yu.png) center no-repeat;display: inline-block;}
+.part-1 .btn-yy .btn-yy-yue{margin: -6px 0 0 83px; width: 83px;height: 105px;background: url(/images/btn_yy_yue.png) center no-repeat;display: inline-block;}
+.part-1 .btn-yy-txt{margin-left: 90px;width: 406px;height: 59px;background: url(/images/btn_yy_txt.png) center no-repeat;}
 
 /*------ page2 -----*/
+.wrap {margin-top: 137px; z-index: 10; height: 900px}
 .page2 {background: url(http://i0.cy.com/kzgj/main/2019/0624/news_index_bg1.png) top center no-repeat;}
 
 .mod-banner{position: relative;width: 411px;float:left;}
@@ -49,3 +70,37 @@ body{ font-family:'微软雅黑','宋体',sumsun,Helvetica,sans-serif; backgroun
     text-indent: 35px;
 }
 .mod-news .swiper-slide li span{float:right;height:50px;line-height: 50px; font-size:16px; color:#a0a0a0;}
+
+/*-------part-2------*/
+.part-2 {height:585px;background: url(/images/part_2_bg.jpg) bottom center no-repeat;background-size: cover;}
+.part-2 .mid{width:1200px; margin: 0 auto; position: relative;}
+.part-2 .mid .box{position: absolute;top: -84px;left: 0;}
+.part-2 .title{margin: 0 auto; width: 627px;height: 126px;background: url(/images/title_2.png) center no-repeat;position: relative;}
+.part-2 .title .title_1{margin: -23px 0 0 37px;width: 76px;height: 101px;background: url(/images/1.png) center no-repeat;}
+.part-2 .title .title_5{margin: -21px 0 0 114px;width: 87px;height: 104px;background: url(/images/5.png) center no-repeat;}
+.part-2 .time-line{margin: 20px 0 0 -50px;width: 1300px;height: 278px;background: url(/images/time_line.png) center no-repeat;}
+.part-2 .time-line-box{ width: 1300px;height: 480px;}
+.time-line-box .top{padding-top: 52px;margin: 0 auto;width: 1200px;height: 87px;background: url(/images/time_line_top.png) center no-repeat;}
+.time-line-box .bottom{margin: 0 auto;width: 1200px;height: 87px;background: url(/images/time_line_bottom.png) center no-repeat;}
+.time-line-box ul{ height: 303px; padding: 0 50px;margin-top: -20px;}
+.time-line-box ul li{ float:left;width: 92.3px;height: 303px;}
+.time-line-box ul li.a{ background: url(/images/2004_txt.png) top center no-repeat;}
+.time-line-box ul li.b{ background: url(/images/2006_txt.png) bottom center no-repeat;}
+.time-line-box ul li.c{ background: url(/images/2007_txt.png) top center no-repeat;}
+.time-line-box ul li.d{ background: url(/images/2010_txt.png) bottom center no-repeat;}
+.time-line-box ul li.e{ background: url(/images/2011_txt.png) top center no-repeat;}
+.time-line-box ul li.f{ background: url(/images/2013_txt_1.png) bottom center no-repeat;}
+.time-line-box ul li.g{ background: url(/images/2013_txt_2.png) top center no-repeat;}
+.time-line-box ul li.h{ background: url(/images/2014_txt.png) bottom center no-repeat;}
+.time-line-box ul li.i{ background: url(/images/2015_txt.png) top center no-repeat;}
+.time-line-box ul li.j{ background: url(/images/2016_txt_1.png) bottom center no-repeat;}
+.time-line-box ul li.k{ background: url(/images/2016_txt_2.png) top center no-repeat;}
+.time-line-box ul li.l{ background: url(/images/2019_txt_1.png) bottom center no-repeat;}
+.time-line-box ul li.m{ background: url(/images/2019_txt_2.png) top center no-repeat;}
+
+
+/*-------part-3------*/
+.part-3 {height:1217px;background: url(/images/part_3_bg.png) top center no-repeat;background-size: cover;}
+.part-3 .mid{padding-top: 200px;width:1200px; margin: 0 auto; position: relative;}
+.part-3 .title{width: 646px;height: 226px;background: url(/images/title_3.png) center no-repeat;}
+
