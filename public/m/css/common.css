@@ -17,7 +17,7 @@ html{-webkit-text-size-adjust:none;}
 .top-line{height: 2px;background-color:#b5b5b5; margin: 10px 20px; }
 
 /*  footer */
-.footer{ height: 528px; background-color: #424242;}
+.footer{ background-color: #424242;}
 .footer .about-us{background: url(../images/bg_footer.jpg) bottom no-repeat; background-size: cover;height: fit-content;}
 .about-us .wx{width: 320px; height: 262px; display: inline-block;border-right: 1px solid #4d4d4d;}
 .about-us .wx .wx-box{margin: 20px 0 0 50px;}
