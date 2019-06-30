@@ -1,5 +1,5 @@
 
-var topArry = [0, 877, 1567, 2467, 3467, 4467, 5667, 6467];
+var topArry = [0, 677, 1367, 2267, 3267, 4267, 5467, 6267];
 var disabledScrollChangeNav = false;
 $(function(){
 
@@ -9,7 +9,7 @@ $(function(){
         var viewH = $(window).height();  //可见高度 
         var contentH = $(document).height();  //内容高度
 
-        console.log(scroH +"======"+viewH+"======="+contentH);
+        //console.log(scroH +"======"+viewH+"======="+contentH);
 
         //time-line 
         var timeLineMoveH = topArry[2];
@@ -19,7 +19,7 @@ $(function(){
         		$(".time-line ul").addClass("move");
         	}
         }
-        //role 
+        //role part-3
         var roleMoveH = topArry[3];
         if(scroH > roleMoveH && scroH < viewH + roleMoveH){
         	var isMoved = $(".part-3 .txt-1").hasClass("move");
@@ -31,12 +31,28 @@ $(function(){
         		$(".part-3 .role-1").addClass("move");
         	}
         }
-        if (contentH - (scroH + viewH) <= 100){  //距离底部高度小于100px
-             
-        }  
-        if (contentH = (scroH + viewH)){  //滚动条滑到底部啦
-             
-        }  
+        // part-4
+        /*var part4 =  topArry[4];
+        if(scroH > part4 && scroH < viewH + part4){
+        	$('.pic-box').addClass('animated bounceInLeft');
+        }*/
+        
+        //title  animated bounceInLeft
+        /*for (var i = 0; i < topArry.length; i++) {
+    		if(i == topArry.length - 1){
+    			if(scroH >= topArry[i]){
+    				$('.part-'+(i)+' .title').addClass('animated bounceInLeft');
+    				break;
+    			}
+    		}else{
+    			if(scroH >= topArry[i] && scroH < topArry[i+1]){
+    				console.log('.part-'+(i+1)+' .title');
+    				$('.part-'+(i)+' .title').addClass('animated bounceInLeft');
+    				break;
+    			}
+    		}
+    	}*/
+ 
         
         //goto top
         if(scroH > 900){
