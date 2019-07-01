@@ -1,8 +1,12 @@
 
-var topArry = [0, 677, 1367, 2267, 3267, 4267, 5467, 6267];
+var topArry = [0, 577, 1267, 2167, 3167, 4167, 5367, 6167];
 var disabledScrollChangeNav = false;
 $(function(){
 
+	$('.part').hide();
+	$('.part-1').show();
+	$('.part .mid').addClass('test');
+	
 	//滚动条事件
 	$(document).scroll(function() {
         var scroH = $(document).scrollTop();  //滚动高度
@@ -14,14 +18,16 @@ $(function(){
         //time-line 
         var timeLineMoveH = topArry[2];
         if(scroH > timeLineMoveH && scroH < viewH + timeLineMoveH){  //距离顶部大于100px时
-        	var isMoved = $(".time-line ul").hasClass("move");
+        	$('.part-2').show();
+        	var isMoved = $(".shade-box").hasClass("move");
         	if(!isMoved){
-        		$(".time-line ul").addClass("move");
+        		$(".shade-box").addClass("move");
         	}
         }
         //role part-3
         var roleMoveH = topArry[3];
         if(scroH > roleMoveH && scroH < viewH + roleMoveH){
+        	$('.part-3').show();
         	var isMoved = $(".part-3 .txt-1").hasClass("move");
         	if(!isMoved){
         		$(".part-3 .txt-1").addClass("move");
@@ -32,10 +38,25 @@ $(function(){
         	}
         }
         // part-4
-        /*var part4 =  topArry[4];
+        var part4 =  topArry[4];
         if(scroH > part4 && scroH < viewH + part4){
-        	$('.pic-box').addClass('animated bounceInLeft');
-        }*/
+        	$('.part-4').show();
+        }
+        // part-5
+        var part5 =  topArry[5];
+        if(scroH > part5 && scroH < viewH + part5){
+        	$('.part-5').show();
+        }
+        // part-6
+        var part6 =  topArry[6];
+        if(scroH > part6 && scroH < viewH + part6){
+        	$('.part-6').show();
+        }
+        // part-7
+        var part7 =  topArry[7];
+        if(scroH > part7 && scroH < viewH + part7){
+        	$('.part-7').show();
+        }
         
         //title  animated bounceInLeft
         /*for (var i = 0; i < topArry.length; i++) {
@@ -137,16 +158,18 @@ $(function(){
 	//hf rc
 	$('.role_tag_item').click(function(){
 		var index = $(this).parent().index();
-		//$('.role_bg').css('background-image', 'url(/images/role_jn_'+(index+1)+'.png)');
-		//animation: hf_3 2s infinite steps(1);
 		var roleBg = $('.role_bg').eq(index);
 		var isHf = $(roleBg).hasClass('hf');
 		if(isHf){
-			$(roleBg).removeClass('hf');
-			$('.role_bg').eq(index).css('animation', 'rc_'+(index+1)+' 2s infinite steps(1)');
+			$('.role_bg').removeClass('hf');
+			$('.role_bg').addClass('rc');
+			$('.role_tag_item').removeClass('hf');
+			$('.role_tag_item').addClass('rc');
 		}else{
-			$(roleBg).addClass('hf');
-			$('.role_bg').eq(index).css('animation', 'hf_'+(index+1)+' 2s infinite steps(1)');
+			$('.role_bg').removeClass('rc');
+			$('.role_bg').addClass('hf');
+			$('.role_tag_item').removeClass('rc');
+			$('.role_tag_item').addClass('hf');
 		}
 	});
 	
