@@ -26,8 +26,12 @@ html{-webkit-text-size-adjust:none;}
 .about-us .wx-txt .txt1{font-size: 24px; color: #debc81; position: absolute; top: 50px;left: 208px;}
 .about-us .wx-txt .txt2{font-size: 24px; color: #fefeff; margin: 0 0 0 55px;}
 .about-us .qq{ height: 74px; background-color: #0c0c0c; margin: 0 22px 10px 20px;}
-.about-us .qq .qq-box{ display: inline-block;position: absolute;margin-top: -33px;}
+.about-us .qq img{ float: right;}
+.about-us .qq .qqq{ margin: 26px 81px 0 0;}
+.about-us .qq a{   display: block;height: 74px;}
+.about-us .qq .qq-box{ display: inline-block;position: absolute;}
 .about-us .qq .txt{ display: inline-block; margin-left: 266px; position: absolute;font-size: 24px; color: #ffffff;line-height: 74px;vertical-align: bottom;}
 .about-us .wb{ height: 74px; background-color: #0c0c0c; margin: 0 22px 10px 20px;}
+.about-us .wb a{   display: block;height: 74px;}
 .about-us .wb .wb-box{ display: inline-block;position: absolute;margin-top: -33px;}
 .about-us .wb .txt{ display: inline-block; margin-left: 266px; position: absolute;font-size: 24px; color: #ffffff;line-height: 74px;vertical-align: bottom;}
