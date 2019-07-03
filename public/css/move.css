@@ -1,0 +1,45 @@
+slogan animated bounceInLeft 
+
+
+
+btn-yy-yu animated wobble infinite
+margin: -65px 0 0 -31px;
+
+
+
+.time-line-box ul li{transform: translate3d(-3000px, 0, 0);}
+.time-line-box ul li.a{animation: bounceInLeft 2s ease-in forwards;}
+.time-line-box ul li.b{animation: bounceInLeft 2s 0.4s ease-in forwards;}
+.time-line-box ul li.c{animation: bounceInLeft 2s 0.8s ease-in forwards;}
+.time-line-box ul li.d{animation: bounceInLeft 2s 1.2s ease-in forwards;}
+.time-line-box ul li.e{animation: bounceInLeft 2s 1.6s ease-in forwards;}
+.time-line-box ul li.f{animation: bounceInLeft 2s 2s ease-in forwards;}
+.time-line-box ul li.g{animation: bounceInLeft 2s 2.4s ease-in forwards;}
+.time-line-box ul li.h{animation: bounceInLeft 2s 2.8s ease-in forwards;}
+.time-line-box ul li.i{animation: bounceInLeft 2s 3.2s ease-in forwards;}
+.time-line-box ul li.j{animation: bounceInLeft 2s 3.6s ease-in forwards;}
+.time-line-box ul li.k{animation: bounceInLeft 2s 4s ease-in forwards;}
+.time-line-box ul li.l{animation: bounceInLeft 2s 4.4s ease-in forwards;}
+.time-line-box ul li.m{animation: bounceInLeft 2s 5.2s ease-in forwards;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

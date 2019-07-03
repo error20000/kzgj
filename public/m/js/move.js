@@ -1,6 +1,6 @@
 
-var topArry = [0, 655, 2400, 3256, 4500, 5700, 6974];
-var disabledScrollChangeNav = false;
+var topArry = [0, 0, 400, 1800, 2900, 4200, 5300, 6700];
+var activePart4 = false;
 $(function(){
 
 	$('.part').hide();
@@ -18,37 +18,43 @@ $(function(){
         console.log(scroH +"======"+viewH+"======="+contentH);
 
         //part-2 
-        var timeLineMoveH = topArry[0];
+        var timeLineMoveH = topArry[1];
         if(scroH > timeLineMoveH && scroH < viewH + timeLineMoveH){  //距离顶部大于100px时
         	$('.part-2').show();
         }
         //part-3
-        var roleMoveH = topArry[1];
+        var roleMoveH = topArry[2];
         if(scroH > roleMoveH && scroH < viewH + roleMoveH){
         	$('.part-3').show();
         }
         // part-4
-        var part4 =  topArry[2];
+        var part4 =  topArry[3];
         if(scroH > part4 && scroH < viewH + part4){
         	$('.part-4').show();
+        	if(!activePart4){
+        		activePart4 = true;
+        		setTimeout(() => {
+        			$('.part-4 .slide').eq(0).addClass('active');
+        		}, 1000);
+        	}
         }
         // part-5
-        var part5 =  topArry[3];
+        var part5 =  topArry[4];
         if(scroH > part5 && scroH < viewH + part5){
         	$('.part-5').show();
         }
         // part-6
-        var part6 =  topArry[4];
+        var part6 =  topArry[5];
         if(scroH > part6 && scroH < viewH + part6){
         	$('.part-6').show();
         }
         // part-7
-        var part7 =  topArry[5];
+        var part7 =  topArry[6];
         if(scroH > part7 && scroH < viewH + part7){
         	$('.part-7').show();
         }
         // part-8
-        var part8 =  topArry[6];
+        var part8 =  topArry[7];
         if(scroH > part8 && scroH < viewH + part8){
         	$('.part-8').show();
         	$('.footer').show();
@@ -76,5 +82,8 @@ $(function(){
 			$('.role_tag_item').addClass('hf');
 		}
 	});
+	
+	//点击大图
+	
 	
 });

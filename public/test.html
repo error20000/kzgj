@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cyja.js</title>
+</head>
+<body>
+<div id="Login" hidden>
+    <input type="text" class="input_account" placeholder="请输入账号"><br/>
+    <input type="text" class="input_pwd" placeholder="请输入验证码" style="width:80px">
+    <input type="button" value="发送验证码" class="btn_code"><br/>
+    <input type="button" value="登录" class="btn_login">
+</div>
+<div id="Show" hidden>
+    <a href="javascript:;" class="btn_logout">退出</a>
+</div>
+</body>
+<script src="https://www.changyou.com/cdn/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://www.changyou.com/cdn/cyja/1.0/cyja.min.js"></script>
+<script>
+    cyja.config({
+        app: "ldjsy",
+        activity: "android",
+        version: "20190603",
+        server: "tpl0612",
+        platform: "CYOU3",
+
+        isWxLogin: false,
+        isUserInit: false,
+        isWxInit: false,
+        ready: function(data) {
+            if(data.code === 10000) {
+                initAfter();
+            }else {
+                initBefore();
+            }
+        }
+    });
+    function initBefore() {
+        $('#Login').show();
+        $('#Show').hide();
+        var $inputAccount = $('.input_account')
+            , $inputPwd = $('.input_pwd')
+            , $btnCode = $('.btn_code')
+            , $btnLogin = $('.btn_login');
+        $btnCode.click(function() {
+            cyja.user.getCode($inputAccount.val());
+        });
+        $btnLogin.click(function () {
+            cyja.user.loginPhone($inputAccount.val(), $inputPwd.val())
+        });
+        
+    }
+    function initAfter() {
+        $('#Login').hide();
+        $('#Show').show();
+        var $btnLogout = $('.btn_logout');
+        $btnLogout.click(function() {
+            cyja.user.logout();
+        })
+    }
+</script>
+</html>
+
