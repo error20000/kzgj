@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>《空之轨迹OL》手游官网-日系殿堂级RPG神作降临</title>
+    <meta name="keywords" content="空之轨迹,空之轨迹手游,空之轨迹ol,空之轨迹礼包,英雄传说" />
+    <meta name="description" content="日本国民级RPG游戏大厂Falcom的经典单机游戏空轨系列全新之作《空之轨迹OL》，即将正式推出！" />
+    <meta content="width=750,minimum-scale=0,maximum-scale=5,user-scalable=no" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="author" content="" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="logo/logo.css">
+    <script>
+	//移动端版本兼容
+	var phoneWidth = parseInt(window.screen.width);
+	var phoneScale = phoneWidth/750;
+
+	var ua = navigator.userAgent;
+	if (/Android (\d+\.\d+)/.test(ua)){
+		var version = parseFloat(RegExp.$1);
+		// andriod 2.3
+		if(version>2.3){
+			document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+		// andriod 2.3以上
+		}else{
+			document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+		}
+		// 其他系统
+	} else {
+		document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+	}
+	</script>
+</head>
+
+<body>
+    	<div class="bg-top">
+		    <div class="top">
+				<span class="top_icon spr"></span>
+				<a href="http://kzgj-activity.changyou.com/kzgj/cover/20190503/pc/index.shtml" class="yy_btn spr"></a>
+			</div>
+			<a href="main.shtml" class="btn-backtop"><i class="btn-back-icon"></i>返回</a>
+		</div>
+
+    <div class="page_bg1">
+        <div class="xbt_tab">
+            <ul>
+                <li><a href="javascript:;">综合</a></li>
+                <li><a href="javascript:;">活动</a></li>
+                <li class="page_select"><a href="javascript:;">新闻</a></li>
+                <li><a href="javascript:;">攻略</a></li>
+                <!-- class="page_select" -->
+            </ul>
+        </div>
+        <div class="list_pageXw">
+            <ul style="min-height:385px;">
+				<li>
+				  <div class="le_bjBox"><p>新闻</p></div>					
+				  <div class="fr_link">	
+				  	<a href="detail.shtml" title="">反派归化后就变弱？《空之轨迹OL》噬身之蛇的逆袭</a>
+				  </div>
+				  <em>发布于06/20</em>
+				</li>
+				<li>
+				  <div class="le_bjBox"><p>新闻</p></div>					
+				  <div class="fr_link">	
+				  	<a href="detail.shtml" title="">反派归化后就变弱？《空之轨迹OL》噬身之蛇的逆袭</a>
+				  </div>
+				  <em>发布于06/20</em>
+				</li>
+				<li>
+				  <div class="le_bjBox"><p>新闻</p></div>					
+				  <div class="fr_link">	
+				  	<a href="detail.shtml" title="">反派归化后就变弱？《空之轨迹OL》噬身之蛇的逆袭</a>
+				  </div>
+				  <em>发布于06/20</em>
+				</li>
+				<li>
+				  <div class="le_bjBox"><p>新闻</p></div>					
+				  <div class="fr_link">	
+				  	<a href="detail.shtml" title="">反派归化后就变弱？《空之轨迹OL》噬身之蛇的逆袭</a>
+				  </div>
+				  <em>发布于06/20</em>
+				</li>
+				<li>
+				  <div class="le_bjBox"><p>新闻</p></div>					
+				  <div class="fr_link">	
+				  	<a href="detail.shtml" title="">反派归化后就变弱？《空之轨迹OL》噬身之蛇的逆袭</a>
+				  </div>
+				  <em>发布于06/20</em>
+				</li>
+            </ul>
+            <div class="load_more ">
+                <div class="return_index ui-refresh-down">
+                	<span></span>
+                    <a class="ui-refresh-label" href="javascript:;">加载更多</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+		<!-- footer -->
+		<div class="footer">
+			 <div class="about-us">
+			 	<div class="wx">
+					<div class="wx-box">
+						<img src="http://i1.cy.com/kzgj_m/main/2019/0703/wx_pic.png"/>
+					</div>
+				</div>
+				<div class="wx-txt">
+					<div class="icon-box">
+						<img src="http://i1.cy.com/kzgj_m/main/2019/0703/icon.png"/>
+					</div>
+					<div class="txt1">
+						<p>微信公众号账号</p>
+						<p>kzgjcy</p>
+					</div>
+					<div class="txt2">
+						<p>微信长按识别二维码</p>
+						<p>加入游击士协会</p>
+					</div>
+				</div>
+				<div class="qq">
+					<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=a4021db431c30b74381a6b99536c6ba3ca50e442e5d391b8e3dd3e7d41babe78">
+					<div class="qq-box">
+						<img src="http://i1.cy.com/kzgj_m/main/2019/0703/qq_pic.png"  width="80px" height="74px"/>
+					</div>
+					<div class="txt">官方QQ群：86327405</div>
+					</a>
+				</div>
+				<div class="wb">
+					<a href="https://www.weibo.com/u/6410913368">
+					<div class="wb-box">
+						<img src="http://i1.cy.com/kzgj_m/main/2019/0703/wb_pic.png" width="80px" height="74px"/>
+					</div>
+					<div class="txt">官方微博：空之轨迹手游</div>
+					</a>
+				</div>
+			 </div>
+			 <div class="about_txt">
+			 </div>
+		</div>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="//www.cy.com/js/cy_public_dark.js"></script>
+		<!--#include virtual="/inc/dma.html"-->
+</body>
+
+</html>

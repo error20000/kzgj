@@ -8,6 +8,7 @@ $(function(){
 	$('.part-2').show();
 	$('.part .mide').addClass('test');
 	$('.footer').hide();
+	$('#cy_bot').hide();
 	
 	//滚动条事件
 	$(document).scroll(function() {
@@ -15,7 +16,7 @@ $(function(){
         var viewH = $(window).height();  //可见高度 
         var contentH = $(document).height();  //内容高度
 
-        console.log(scroH +"======"+viewH+"======="+contentH);
+        //console.log(scroH +"======"+viewH+"======="+contentH);
 
         //part-2 
         var timeLineMoveH = topArry[1];
@@ -58,8 +59,8 @@ $(function(){
         if(scroH > part8 && scroH < viewH + part8){
         	$('.part-8').show();
         	$('.footer').show();
+        	$('#cy_bot').show();
         }
-        
         
  
     });
@@ -83,6 +84,11 @@ $(function(){
 		}
 	});
 	
+	//点击大图
+	$('.bg-video').click(function(){
+		popup($("#pop1"));
+	});
+
 	//点击大图
 	
 	
